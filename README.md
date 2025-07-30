@@ -1,3 +1,3 @@
 My personal website
 
->> TODO decap CMS with netlify
+TODO decap CMS with netlify
