@@ -1,22 +1,9 @@
-<figure class="image-card caption" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-    <img src="{{ include.imageurl }}" alt="{{ include.title }}" {% if include.width
-        %}style="width: {{ include.width }}; {% if include.height %}height: {{ include.height }}; {% endif %}max-width: min(100%, 300px); height: auto; flex-shrink: 0; object-fit: cover;"
-        {% else %}style="flex-shrink: 0; max-width: min(100%, 300px); height: auto; object-fit: cover;" {% endif %} />
+<div class="image-profile-container"
+    style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin: 1.5em 0;">
+    <img src="{{ include.imageurl | relative_url }}" alt="{{ include.title }}"
+        style="width: 300px; height: 300px; max-width: 100%; height: auto; flex-shrink: 0; object-fit: cover; border-radius: 8px;" />
     {% if include.caption %}
-    <figcaption class="caption-text" style="flex: 1; margin-top: 0; min-width: 200px;">{{ include.caption }}
-    </figcaption>
+    <div class="profile-caption" style="flex: 1; margin-top: 0; min-width: 200px; font-size: 1em; line-height: 1.6;">{{
+        include.caption }}</div>
     {% endif %}
-</figure>
-
-<style>
-    @media (max-width: 600px) {
-        .image-card.caption {
-            flex-direction: column !important;
-        }
-
-        .image-card.caption img {
-            max-width: 100% !important;
-            align-self: center;
-        }
-    }
-</style>
+</div>
