@@ -26,13 +26,7 @@
   margin-bottom: 1.11111rem;
 }
 
-.post-tags {
-  a {
-    &:before {
-      content: "\0023";
-    }
-  }
-}
+
 
 .post-title {
   font-size: 2rem;
@@ -140,16 +134,7 @@
   }
 }
 
-/* Archive page */
-.archive-tags {
-  font-style: italic;
-  a {
-    margin-right: 5px;
-    &:before {
-      content: "\0023";
-    }
-  }
-}
+
 
 .archive-top-link {
   color: _palette(meta);

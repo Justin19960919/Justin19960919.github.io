@@ -14,8 +14,8 @@ You can find our premium Jekyll themes here -> [jekyllthemes.io](https://jekyllt
 ## Features
 
 - Responsive design
-- Archive organized by [tags](https://scriptor-jekyll.netlify.com/tags/)
-- Disqus Comments
+
+
 - Accent color options
 - [Prism](https://prismjs.com/) syntax highlighter
 

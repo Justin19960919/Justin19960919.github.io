@@ -1,24 +1,19 @@
 {
   "links": [
     {
-      "title": "Twitter",
-      "icon": "fa-twitter",
-      "url": "https://twitter.com/"
-    },
-    {
       "title": "GitHub",
       "icon": "fa-github",
-      "url": "https://github.com/"
+      "url": "https://github.com/Justin19960919"
     },
     {
       "title": "Instagram",
       "icon": "fa-instagram",
-      "url": "https://www.instagram.com/"
+      "url": "https://www.instagram.com/justinlee919_/"
     },
     {
       "title": "LinkedIn",
       "icon": "fa-linkedin",
-      "url": "https://www.linkedin.com/"
+      "url": "https://www.linkedin.com/in/chieh-lin-lee/"
     }
   ]
 }

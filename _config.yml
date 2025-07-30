@@ -9,10 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Justin's website"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+# description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -28,26 +28,25 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
-    url: /
   - text: About
     url: /about/
+  - text: Blog
+    url: /blog/
+  - text: Projects
+    url: /projects/
   - text: Style Guide
     url: /style-guide/
-  - text: Tags
-    url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
-# The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
+
+
+
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#ffffff'
 
 # Site footer
 footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "Created by Justin Lee"
   has_social: true
 
 # Plugins
@@ -55,7 +54,8 @@ plugins:
   - jekyll-paginate
 
 # http://jekyllrb.com/docs/pagination/
-paginate: 3
+# This specifies how many posts are displayed per page
+paginate: 5
 paginate_path: '/page:num/'
 
 
