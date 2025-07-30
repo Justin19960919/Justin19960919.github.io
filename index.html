@@ -13,7 +13,8 @@ layout: default
         By <span class="post-author">{{ site.data.author.name }}</span>
       </div><!-- .post-meta -->
       {% if post.feature_image and post.feature_image != "" %}
-      <figure class="post-thumbnail image-card width-wide">
+      <figure
+        class="post-thumbnail image-card {% if post.image_size %}{{ post.image_size }}{% else %}width-wide{% endif %}">
         <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.feature_image | relative_url }}"
             alt="{{ post.title }}"></a>
       </figure><!-- .post-thumbnail -->

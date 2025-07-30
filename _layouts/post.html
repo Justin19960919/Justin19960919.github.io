@@ -14,7 +14,8 @@ layout: default
             rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
       </div><!-- .post-meta -->
       {% if page.feature_image and page.feature_image != "" %}
-      <figure class="post-thumbnail image-card width-wide">
+      <figure
+        class="post-thumbnail image-card {% if page.image_size %}{{ page.image_size }}{% else %}width-wide{% endif %}">
         <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
       </figure><!-- .post-thumbnail -->
       {% endif %}
