@@ -1,0 +1,158 @@
+# 📘 Covered Calls for Beginners
+
+## 📌 Why Utilize the Covered Call Strategy?
+
+- ✅ **Win small and often**
+- ✅ **Construct low-risk trades**  
+  *Goal: Make more money with less risk*
+- ⚠️ **Short-term tax implications**  
+  *(Taxed as short-term capital gains)*
+- ❌ **Avoid prediction-based decisions**  
+  *Be conservative, not speculative*
+- 🗓️ **Sell calls with expiry no more than 45 days out**
+
+---
+
+## ❌ Why You Should NOT Sell Naked Puts
+
+1. **Limited upside, but unlimited downside**  
+   *This risk asymmetry is dangerous*
+2. **Poor for consistent cash flow**
+3. **Assigned to buy stock if price drops below strike**  
+   *This only works if you have ample cash and want to own the stock anyway*
+
+---
+
+## 💭 Mindsets to Embrace
+
+1. **Investment vs Speculation**  
+   *Stick to strong principles → higher chance of long-term profit*
+
+2. **Lose little, win lots**  
+   *Consistently favorable risk/reward setup = long-term edge*
+
+---
+
+## 🧮 Option Value Basics
+
+> **Option Value = Intrinsic Value + Time (Extrinsic) Value**
+
+- **Intrinsic Value** = Value if option is In The Money (ITM)
+- **Time Value** = Value from time remaining until expiration
+
+### Example:
+
+**Underlying Stock**: $45  
+| Strike Price | Intrinsic | Time Value | Total Option Value |
+|--------------|------------|-------------|---------------------|
+| $50 (OTM)    | $0         | $1          | $1                  |
+| $40 (ITM)    | $5         | $1.5        | $6.5                |
+
+---
+
+## 📈 Key Financial Terms
+
+- **Sharpe Ratio**: Risk-adjusted return
+- **Alpha**: Performance relative to benchmark
+- **Beta**: Stock's volatility relative to market
+
+---
+
+## 🧠 Option Greeks (Quick Guide)
+
+| Greek | Meaning |
+|-------|---------|
+| **Delta** | Price sensitivity of the option to the underlying asset. Also interpreted as the probability of being ITM. <br> - Call: 0 → 1 <br> - Put: 0 → -1 |
+| **Gamma** | Rate of change of Delta (how fast Delta moves as stock price changes) |
+| **Theta** | Time decay. Always negative. Highest when ATM. |
+| **Implied Volatility (IV)** | Market’s expectation of volatility. Higher before events (e.g. earnings). <br> Choose IV between **30% – 70%** |
+
+---
+
+## 🔍 Choosing the Underlying Stock
+
+> *(Skip if you already own the stock)*  
+- Pick stocks you are comfortable owning long term
+- Stable, low-beta stocks preferred
+- Avoid earnings or high-volatility events near expiry
+
+---
+
+## 🎯 Choosing Strike Prices for Selling Covered Calls
+
+### ✅ If you’re okay letting go of your stock:
+- Choose **Delta ~ 0.3 – 0.4**
+- Pick an **OTM option** with a chance to go ITM  
+  → **Benefit**: premium + potential capital gains
+
+### ✅ If you want to keep your stock:
+- Choose **Delta close to 0**
+- Pick a **deep OTM option**  
+  → Lower premium, but higher chance of keeping shares
+
+---
+
+## 🗓️ Choosing Expiry Dates
+
+- Sell options **30–45 days out**
+  - Time decay (Theta) accelerates within final 30 days
+- Watch out for:
+  - **Earnings**
+  - **Political events**
+  - **Unexpected volatility spikes**
+
+---
+
+## 🚪 Exit Strategy for Covered Calls
+
+### 📏 Rules of Thumb
+
+1. **The 1% Rule**  
+   - If **extrinsic value < 1%** of underlying price → Roll the call
+2. **The 2 & 20 Rule**  
+   - If within 2 weeks, the option loses **> 80% value** → Buy back, lock in profit
+3. **Code Red Rule**  
+   - If the stock crashes unexpectedly → Sell stock and exit all positions
+
+### 🔄 By Scenario
+
+| Scenario | Action |
+|----------|--------|
+| 📈 **Stock Goes Up** | Buy back call if you don’t want it called away |
+| 📉 **Stock Drops** | Buy back for a gain, re-sell a lower strike safer call |
+| ➖ **Stock Stays Flat** | Time decay works for you, roll out or resell at lower strike |
+
+---
+
+## 💡 The Poor Man’s Covered Call (PMCC)
+
+> **Also known as: Long Diagonal Spread with Calls**
+
+### 🧱 Structure
+
+- Buy a **long-dated ITM call (LEAP)**
+  - Expiry > 1 year
+  - Delta ≥ 0.75 (acts like a stock)
+- Sell a **short-dated OTM call**
+  - Similar to covered call premium collection
+  - Be careful: If it moves ITM, close the position
+
+### 🔁 Diagonal = Mix of:
+- **Vertical** (same expiry, different strikes)
+- **Horizontal** (same strike, different expiry)
+
+---
+
+## 📘 LEAP (Long-Term Equity Anticipation Securities)
+
+- Options with **> 1 year expiration**
+- Behaves like synthetic long stock (with less capital)
+- Strong **time value protection**
+- Look for **Delta ≥ 0.75**
+
+---
+
+## 📌 Extra Rules of Thumb
+
+- Short-term volatility can create buying opportunities for option sellers
+- Avoid selling too close to IV spikes (e.g. earnings, Fed meetings)
