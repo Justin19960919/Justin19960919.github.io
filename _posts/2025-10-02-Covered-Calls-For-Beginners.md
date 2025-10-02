@@ -19,6 +19,8 @@ image_size: width-small
   *Be conservative, not speculative*
 - 🗓️ **Sell calls with expiry no more than 45 days out**
 
+<!--more-->
+
 ---
 
 ## ❌ Why You Should NOT Sell Naked Puts
